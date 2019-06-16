@@ -1,0 +1,22 @@
+﻿body {
+    height: 100%;
+    font-family: 'Century Gothic';
+    background-image: linear-gradient(midnightblue, skyblue);
+    text-align: center;  
+}
+
+html{height: 100%;}
+
+.btns {
+    border-radius: 10px;
+    padding: 10px;
+    font-family: 'Century Gothic';
+    font-size: 20px;
+    cursor: pointer;
+    box-shadow: 5px 5px 5px cornflowerblue;
+}
+
+.btns:hover {
+    background-color: crimson;
+    color: white;
+}

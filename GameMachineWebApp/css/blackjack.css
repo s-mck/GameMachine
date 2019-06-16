@@ -1,0 +1,68 @@
+﻿body {
+    background: url(../images/bjEdit5.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#playerArea{
+    display: flex;
+    flex-direction: row;
+    grid-template-areas: "playerBtns playerCards pName";
+    align-items: center;
+    justify-content: center;
+}
+
+#playerBtns{
+    grid-area: playerBtns; 
+    margin-right: auto;
+    padding-left: 70px;
+}
+#playerCards {
+    grid-area: playerCards;
+    margin-right: 10%;
+
+}
+
+#pName {
+    grid-area: pName;
+}
+/* when dealing/hitting cards, use JS to change margins for playerCards and dealerCards.
+    - so cards remain centered. player 35% at start, dealer 27%
+*/
+
+#dealerArea {
+    display: flex;
+    flex-direction: row;
+    grid-template-areas: "newGameBtn dealerCards dName";
+    align-items: center;
+    justify-content: center;
+}
+
+#dealerCards {
+    grid-area: dealerCards;
+    margin-right: 8%;
+}
+#newGameBtn {
+    grid-area: newGameBtn;
+    margin-right: auto;
+    padding-left: 47px;
+}
+#dName {
+    grid-area: dName;
+}
+
+.nameArea{
+    padding: 5px;
+    font-size: 30px;
+    background-color: midnightblue;
+    border: thin solid white;
+    color: white;
+}
+
+.result{
+    font-weight: bold;
+    font-size: 25px;
+    background-color: whitesmoke;
+    color: darkred;
+    border: thick red solid;
+}

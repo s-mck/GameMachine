@@ -1,0 +1,35 @@
+﻿.tileBtn {
+    background-color: #21aaef;
+    color: #fff;
+}
+
+    .tileBtn:hover {
+        background-color: #4cff00;
+        color: #fff;
+    }
+
+.locked {
+    background-color: #ef1c1c;
+    color: #fff;
+}
+
+.newGame {
+    background-color: #09b3f3;
+    color: #fff;
+    font-size: 24px;
+}
+
+.msg {
+    border: 5px outset #f52e2e;
+    font-size: 30px;
+    font-weight: bold;
+    /*font-family:Wingdings;*/
+    color: #f52e2e;
+    margin: 20px;
+}
+
+.table {
+    border: 3px solid #21aaef;
+    padding: 2px;
+    border-radius: 5px;
+}

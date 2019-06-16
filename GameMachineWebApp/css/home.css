@@ -1,0 +1,27 @@
+﻿
+.picArea{
+    display: flex;
+    flex-direction: row;
+    grid-template-areas: "bjack conn4";
+    justify-content:space-evenly;
+    
+}
+
+#bjack {
+    grid-area: bjack;
+}
+#conn4{grid-area: conn4;}
+
+.imgs{
+    border-radius: 80px 80px;
+}
+
+#heading{font-family:'Lucida Sans';}
+
+.pics {
+    background-image: linear-gradient(black, darkslateblue);
+    border-radius: 40px 40px;
+    padding: 20px;
+    color: white;
+    box-shadow: 15px 15px 8px midnightblue;
+}

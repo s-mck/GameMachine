@@ -1,0 +1,25 @@
+﻿.flexContainer{
+    display: flex;
+    flex-direction: column;
+    grid-template-areas:
+        "head"
+        "mainInfo"
+        "bottom";
+    align-items: center;
+}
+
+.head{
+    grid-area: head;
+    font-size: 22px;
+    color: whitesmoke;
+    font-family: 'Lucida Sans';
+}
+.bottom{grid-area: bottom;}
+
+.mainInfo{
+    grid-area: mainInfo;
+    background-color: whitesmoke;
+    padding: 30px;
+    border-radius: 15px 15px;
+    box-shadow: 15px 15px 8px midnightblue;
+}

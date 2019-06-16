@@ -1,0 +1,40 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="GameMachine.master.cs" 
+    Inherits="GameMachineWebApp.GameMachine" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title>Game Machine</title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <link href="css/master.css" type="text/css" rel="stylesheet" />
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+     integrity="sha256-3edrmyuQ0w65f8gfBsqowzjJe2iM6n0nKciPUp8y+7E=" crossorigin="anonymous"></script>
+</head>
+<body>
+    <form id="form1" runat="server">
+
+        <div style="text-align: left; color: white;">
+            <asp:Label ID="LblWelcome" runat="server" Font-Size="Small" Font-Bold="true"></asp:Label>
+            <asp:LinkButton ID="LBLogin" runat="server" Font-Size="Small" PostBackUrl="~/Login.aspx">Login</asp:LinkButton>
+            <asp:LinkButton ID="LBLogout" runat="server" Font-Size="Small" OnClick="LBLogout_Click">Logout</asp:LinkButton>
+            <br />
+            <img id="logo" src="../images/gameLogo.png" width="130"/>
+            <br />
+            <asp:Label ID="lblQuit" runat="server" Font-Size="Small"></asp:Label>
+            <asp:LinkButton ID="LBHome" runat="server" Font-Size="Small" ForeColor="White" OnClick="LBHome_Click">Home</asp:LinkButton>
+
+
+        </div>
+
+
+        <div>
+            <asp:ContentPlaceHolder ID="MainContent" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+
+    </form>
+</body>
+</html>
