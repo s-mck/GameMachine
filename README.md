@@ -25,3 +25,5 @@ In order to successfully login and play, you must:
 
 4. You will need to use the signup function to create new user(s) as the table will be empty initially.
 
+5. In the event the startup project fails to load, the project can be started from \GameMachineWebApp\secure\Home.aspx.cs
+
